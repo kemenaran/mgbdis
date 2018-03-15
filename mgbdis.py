@@ -210,8 +210,8 @@ class Bank:
         })
 
         self.instruction_label_prefixes = dict({
-            'call': 'Call',
-            'jp': 'Jump',
+            'call': 'func',
+            'jp': 'label',
             'jr': 'jr'
         })
 
