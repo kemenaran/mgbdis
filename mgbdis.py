@@ -617,7 +617,6 @@ class Bank:
                 else:
                     # always executes
                     self.append_output('')
-                    self.append_output('')
 
 
     def process_data_in_range(self, rom, start_address, end_address, arguments = None):
